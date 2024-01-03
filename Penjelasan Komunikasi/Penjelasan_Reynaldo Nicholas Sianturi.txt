@@ -1,0 +1,12 @@
+# I2S (Inter-Integrated Circuit Sound Bus)
+I2S adalah standar bus yang dikembangkan untuk transmisi data audio antar perangkat audio digital. I2S memiliki 3 sinyal utama: 1) Serial clock SCLK / bit clock (BCLK) 2) Frame clock LRCK 3) Data serial SDATA.
+# I2C (Inter-Integrated Circuit)
+I2C adalah bus serial dua kabel (SDA dan SCL). I2C adalah bus multi-master, sehingga perangkat apa pun dapat bekerja seperti master dan mengontrol bus. I2C digunakan untuk mentransfer informasi antara bus dan perangkat.
+# SPI (Serial Peripheral Interface)
+SPI adalah bus serial sinkron yang menggunakan tiga hingga empat kabel. Masing-masing kabel dapat mengirim dan menerima pesan secara mandiri dan dapat melakukan sinkronisasi satu sama lain. SPI digunakan karena kemampuan perangkat kerasnya yang kuat.
+# UART (Universal Asynchronous Reception and Transmission)
+UART adalah protokol komunikasi serial sederhana yang memungkinkan host berkomunikasi dengan perangkat tambahan. UART mendukung transmisi data serial, asinkron, dan dua arah. UART memiliki dua jalur data, satu untuk transmisi (TX) dan satu lagi untuk menerima (RX), yang digunakan untuk komunikasi melalui pin digital 0, pin digital 1.
+# GPIO (General Purpose Input Output)
+GPIO atau bus expander, menggunakan antarmuka standar industri I2C, SMBus atau SPI untuk menyederhanakan perluasan port I / O. Ketika mikrokontroler atau chipset tidak memiliki cukup port I / O, atau ketika sistem perlu menggunakan komunikasi atau kontrol serial jarak jauh, produk GPIO dapat menyediakan fungsi kontrol dan pemantauan tambahan.
+# CAN (Controller Area Network)
+CAN adalah standar bus kendaraan berkinerja tinggi yang memungkinkan mikrokontroler dan perangkat berkomunikasi dengan aplikasi di perangkat lain tanpa komputer host. Ini adalah protokol berbasis pesan yang dirancang khusus untuk aplikasi otomotif, namun kini juga digunakan di bidang lain seperti otomasi industri dan perangkat medis.
